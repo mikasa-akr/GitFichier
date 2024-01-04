@@ -6,11 +6,10 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Fichier {
-    private String login;
-    private String avatar_url;
-    private Integer id;
+    private String id;
     private String full_name;
     private String description;
-    private String html_url;
     private String language;
+    private String avatar_url;
+    private String html_url;
 }
